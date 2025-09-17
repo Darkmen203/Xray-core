@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	internalDomain = "reverse"
+	internalDomain = "reverse.internal.v2fly.org" // make reverse proxy compatible with v2fly
 )
 
 func isDomain(dest net.Destination, domain string) bool {
